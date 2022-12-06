@@ -1,12 +1,29 @@
-.projects-container {
+.mat-toolbar.mat-primary {
+    // background: #464646;
+    background: #333;
+    color: #fff;
+}
+.mat-toolbar a {
+    margin-right: 10px;
+}
+.align-center {
+    margin: auto;
+}
+.main-container {
     background-color: white;
-    border-radius: 10px;
     margin: auto;
     width: 40%;
     background-color: rgb(229, 229, 229);
 }
-
-
+.project-container a {
+    margin: 0px;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 20px;
+    font-weight: bold;
+}
 .mat-card {
     margin: 10px;
 }
@@ -16,3 +33,24 @@
     top: 0;
     z-index: 1000;
 }
+
+.education-container h2 {
+    margin: 0px;
+}
+
+.education-container ul {
+    margin: 0px;
+}
+
+.align-left {
+    float: left;
+}
+
+.align-right {
+    float: right;
+}
+
+.clear-float {
+    clear: both;
+}
+

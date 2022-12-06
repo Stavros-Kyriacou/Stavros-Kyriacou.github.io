@@ -2,167 +2,243 @@
 
 <body>
     <mat-toolbar color="primary">
-        <a href="https://github.com/Stavros-Kyriacou" target="_blank">
-            <button mat-raised-button>
-                <mat-icon svgIcon="github"></mat-icon>
-                GitHub
-            </button>
-        </a>
-        <a href="https://www.linkedin.com/in/stavros-kyriacou-b56077259/" target="_blank">
-            <button mat-raised-button>
-                <mat-icon svgIcon="linkedin"></mat-icon>
-                LinkedIn
-            </button>
-        </a>
+        <div class="align-center">
+            <a href="https://github.com/Stavros-Kyriacou" target="_blank">
+                <button mat-raised-button>
+                    <mat-icon svgIcon="github"></mat-icon>
+                    GitHub
+                </button>
+            </a>
+            <a href="https://www.linkedin.com/in/stavros-kyriacou-b56077259/" target="_blank">
+                <button mat-raised-button>
+                    <mat-icon svgIcon="linkedin"></mat-icon>
+                    LinkedIn
+                </button>
+            </a>
+            <a href="../../../assets/resume" download>
+                <button mat-raised-button>
+                    <mat-icon>get_app</mat-icon>
+                    Resume
+                </button>
+            </a>
+            <a href="mailto: stavroslkyriacou@gmail.com">
+                <button mat-raised-button>
+                    <mat-icon>email</mat-icon>
+                    stavroslkyriacou@gmail.com
+                </button>
+            </a>
+        </div>
     </mat-toolbar>
-    <div class="projects-container">
-        <mat-tab-group mat-align-tabs="center" mat-stretch-tabs="false">
-            <mat-tab label="Web Projects">
-                <mat-card>
-                    <mat-card-header>
-                        <mat-card-title>NBA Predictions App</mat-card-title>
-                    </mat-card-header>
+    <div class="main-container">
+        <div class="project-container">
+            <h1>Projects</h1>
+            <mat-tab-group mat-align-tabs="center" mat-stretch-tabs="false">
+                <mat-tab label="Web Projects">
+                    <mat-card>
+                        <mat-card-header>
+                            <mat-card-title>NBA Predictions App</mat-card-title>
+                        </mat-card-header>
+                        <mat-card-content>
+                            <h2>Description</h2>
+                            <p>
+                                A full stack appliation that allows users to create their own NBA dream teams. Compare
+                                different teams to see
+                                which is more likely to win using the players efficiency rating.
+                            </p>
+                            <h2>Technologies</h2>
+                            <ul>
+                                <li>Angular</li>
+                                <li>.NET API</li>
+                                <li>SQL Database</li>
+                                <li>Auth0</li>
+                                <li>Azure Hosting and CI/CD</li>
+                            </ul>
+                            <h2>Lessons Learned</h2>
+                            <ul>
+                                <li>Group work using agile methods</li>
+                                <li></li>
+                            </ul>
+                        </mat-card-content>
+                        <mat-card-actions>
+                        </mat-card-actions>
+                    </mat-card>
 
-                    <mat-card-content>
+                    <mat-card>
+                        <mat-card-header>
+                            <mat-card-title>EdAble Admin System</mat-card-title>
+                        </mat-card-header>
 
-                        <h2>Description</h2>
-                        <p>
-                            A full stack appliation that allows users to create their own NBA dream teams. Compare
-                            different teams to see
-                            which is more likely to win using the players efficiency rating.
-                        </p>
+                        <mat-card-content>
 
-                        <h2>Technologies</h2>
-                        <ul>
-                            <li>Angular</li>
-                            <li>.NET API</li>
-                            <li>SQL Database</li>
-                            <li>Auth0</li>
-                            <li>Azure Hosting and CI/CD</li>
-                        </ul>
+                            <h2>Description</h2>
+                            <p>
+                                An administration application for <a
+                                    href="https://www.edable.org.au/donations">EdAble's</a>
+                                donation website. Create and manage donation item
+                                campaigns that are listed on the main website. Display donation infographics and create
+                                reports.
+                            </p>
 
-                        <h2>Lessons Learned</h2>
-                        <ul>
-                            <li>Group work using agile methods</li>
-                            <li></li>
-                        </ul>
+                            <h2>Technologies</h2>
+                            <ul>
+                                <li>Firebase Hosting</li>
+                                <li>Firestore NoSQL Database</li>
+                                <li>Firestorage Image Storage</li>
+                                <li>Firebase Authentication</li>
+                            </ul>
 
-                    </mat-card-content>
-                    <mat-card-actions>
-                    </mat-card-actions>
-                </mat-card>
+                            <h2>Lessons Learned</h2>
+                            <ul>
+                                <li>Working with a cient. Only Firebase services were used for handoever to keep
+                                    everything
+                                    simple</li>
+                                <li></li>
+                            </ul>
 
-                <mat-card>
-                    <mat-card-header>
-                        <mat-card-title>EdAble Admin System</mat-card-title>
-                    </mat-card-header>
+                        </mat-card-content>
+                        <mat-card-actions>
+                        </mat-card-actions>
+                    </mat-card>
+                </mat-tab>
+                <mat-tab label="Game Projects">
+                    <mat-card>
+                        <mat-card-header>
+                            <mat-card-title>Horror Game</mat-card-title>
+                        </mat-card-header>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/vGpPEBniIdo"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                        <mat-card-content>
 
-                    <mat-card-content>
+                            <h2>Description</h2>
+                            <p>
+                                A short horror game built as part of a year long school project. All of the assets and
+                                animations were made by me.
+                            </p>
 
-                        <h2>Description</h2>
-                        <p>
-                            An administration application for <a href="https://www.edable.org.au/donations">EdAble's</a>
-                            donation website. Create and manage donation item
-                            campaigns that are listed on the main website. Display donation infographics and create
-                            reports.
-                        </p>
+                            <h2>Technologies Used</h2>
+                            <ul>
+                                <li>Unreal Engine 4</li>
+                                <li>Blender</li>
+                                <li>Substance Painter</li>
+                            </ul>
 
-                        <h2>Technologies</h2>
-                        <ul>
-                            <li>Firebase Hosting</li>
-                            <li>Firestore NoSQL Database</li>
-                            <li>Firestorage Image Storage</li>
-                            <li>Firebase Authentication</li>
-                        </ul>
+                            <h2>Lessons Learned</h2>
+                            <ul>
+                                <li>3D rigging and animation techniques</li>
+                                <li>Creating Normal maps from high poly 3D models</li>
+                                <li>Basic enemy AI using UE4 behaviour trees</li>
+                            </ul>
 
-                        <h2>Lessons Learned</h2>
-                        <ul>
-                            <li>Working with a cient. Only Firebase services were used for handoever to keep everything
-                                simple</li>
-                            <li></li>
-                        </ul>
+                        </mat-card-content>
+                        <mat-card-actions>
+                        </mat-card-actions>
+                    </mat-card>
+                    <mat-card>
+                        <mat-card-header>
+                            <mat-card-title>Tower Defence Prototype</mat-card-title>
+                        </mat-card-header>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/xVZvEHM9Tzk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                        <mat-card-content>
 
-                    </mat-card-content>
-                    <mat-card-actions>
-                    </mat-card-actions>
-                </mat-card>
-            </mat-tab>
-            <mat-tab label="Game Projects">
-                <mat-card>
-                    <mat-card-header>
-                        <mat-card-title>Horror Game</mat-card-title>
-                    </mat-card-header>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vGpPEBniIdo"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
-                    <mat-card-content>
+                            <h2>Description</h2>
+                            <p>
+                                A prototype of a 2D tower defence game. The player can build 3 different turrets and use
+                                magic spells to kill the enemies
+                            </p>
 
-                        <h2>Description</h2>
-                        <p>
-                            A short horror game built as part of a year long school project. All of the assets and
-                            animations were made by me.
-                        </p>
+                            <h2>Technologies Used</h2>
+                            <ul>
+                                <li>Unity</li>
+                                <li>Astar Pathfinding</li>
+                                <li>Aseprite</li>
+                            </ul>
 
-                        <h2>Technologies Used</h2>
-                        <ul>
-                            <li>Unreal Engine 4</li>
-                            <li>Blender</li>
-                            <li>Substance Painter</li>
-                        </ul>
+                            <h2>Lessons Learned</h2>
+                            <ul>
+                                <li>Adapting an external pathfinding library for enemy AI</li>
+                                <li>Creating modular scripts for turret behaviour</li>
+                            </ul>
 
-                        <h2>Lessons Learned</h2>
-                        <ul>
-                            <li>3D rigging and animation techniques</li>
-                            <li>Creating Normal maps from high poly 3D models</li>
-                            <li>Basic enemy AI using UE4 behaviour trees</li>
-                        </ul>
-
-                    </mat-card-content>
-                    <mat-card-actions>
-                    </mat-card-actions>
-                </mat-card>
-                <mat-card>
-                    <mat-card-header>
-                        <mat-card-title>Tower Defence Prototype</mat-card-title>
-                    </mat-card-header>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xVZvEHM9Tzk"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
-                    <mat-card-content>
-
-                        <h2>Description</h2>
-                        <p>
-                            A prototype of a 2D tower defence game. The player can build 3 different turrets and use
-                            magic spells to kill the enemies
-                        </p>
-
-                        <h2>Technologies Used</h2>
-                        <ul>
-                            <li>Unity</li>
-                            <li>Astar Pathfinding</li>
-                            <li>Aseprite</li>
-                        </ul>
-
-                        <h2>Lessons Learned</h2>
-                        <ul>
-                            <li>Adapting an external pathfinding library for enemy AI</li>
-                            <li>Creating modular scripts for turret behaviour</li>
-                        </ul>
-
-                    </mat-card-content>
-                    <mat-card-actions>
-                        <a href="https://github.com/Stavros-Kyriacou/TowerDefence.git" target="_blank"><button
-                                mat-raised-button color="primary">GitHub</button></a>
-                    </mat-card-actions>
-                </mat-card>
-            </mat-tab>
-        </mat-tab-group>
+                        </mat-card-content>
+                        <mat-card-actions>
+                            <a href="https://github.com/Stavros-Kyriacou/TowerDefence.git" target="_blank"><button
+                                    mat-raised-button color="primary">GitHub</button></a>
+                        </mat-card-actions>
+                    </mat-card>
+                </mat-tab>
+            </mat-tab-group>
+        </div>
+        <div class="education-container">
+            <h1>Education</h1>
+            <mat-card>
+                <h2>Diploma of Information Technology (Advanced Programming)</h2>
+                <div class="subtitle-container">
+                    <p class="align-left">Swinburne University of Technology</p>
+                    <p class="align-right">2022</p>
+                    <div class="clear-float"></div>
+                </div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </mat-card>
+            <mat-card>
+                <h2>Certificate IV in Information Technology</h2>
+                <div class="subtitle-container">
+                    <p class="align-left">Swinburne University of Technology</p>
+                    <p class="align-right">2021</p>
+                    <div class="clear-float"></div>
+                </div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </mat-card>
+            <mat-card>
+                <h2>Diploma of Digital and Interactive Games</h2>
+                <div class="subtitle-container">
+                    <p class="align-left">Box Hill Institute</p>
+                    <p class="align-right">2020</p>
+                    <div class="clear-float"></div>
+                </div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </mat-card>
+            <mat-card>
+                <h2>Certificate IV in Digital and Interactive Games</h2>
+                <div class="subtitle-container">
+                    <p class="align-left">Swinburne University of Technology</p>
+                    <p class="align-right">2019</p>
+                    <div class="clear-float"></div>
+                </div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </mat-card>
+        </div>
     </div>
-
 </body>
 
 </html>
