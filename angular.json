@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "portfolio-website": {
+    "Stavros-Kyriacou": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -70,10 +70,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "portfolio-website:build:production"
+              "browserTarget": "Stavros-Kyriacou:build:production"
             },
             "development": {
-              "browserTarget": "portfolio-website:build:development"
+              "browserTarget": "Stavros-Kyriacou:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,7 +81,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "portfolio-website:build"
+            "browserTarget": "Stavros-Kyriacou:build"
           }
         },
         "test": {
