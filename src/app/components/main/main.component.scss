@@ -3,27 +3,37 @@
     background: #333;
     color: #fff;
 }
+
+::ng-deep .mat-tab-group.mat-primary .mat-ink-bar {
+    background: #333;
+}
+
 .mat-toolbar a {
     margin-right: 10px;
 }
+
 .align-center {
     margin: auto;
 }
+
 .main-container {
     background-color: white;
     margin: auto;
     width: 40%;
     background-color: rgb(229, 229, 229);
 }
+
 .project-container a {
     margin: 0px;
 }
+
 h1 {
     text-align: center;
     font-size: 36px;
     margin: 20px;
     font-weight: bold;
 }
+
 .mat-card {
     margin: 10px;
 }
@@ -54,3 +64,47 @@ h1 {
     clear: both;
 }
 
+.button-label {
+    margin-left: 5px;
+}
+
+.video-frame {
+    width: 560px;
+    height: 315px;
+}
+
+@media screen and (max-width:1400px) {
+    .main-container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .main-container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .video-frame {
+        width: 450px;
+        height: 253px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .button-label {
+        display: none;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .main-container {
+        width: 95%;
+    }
+
+    .video-frame {
+        width: 300px;
+        height: 169px;
+    }
+}
