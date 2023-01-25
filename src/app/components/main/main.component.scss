@@ -1,5 +1,4 @@
 .mat-toolbar.mat-primary {
-    // background: #464646;
     background: #333;
     color: #fff;
 }
@@ -71,6 +70,10 @@ h1 {
 .video-frame {
     width: 560px;
     height: 315px;
+}
+
+.repo-button {
+    background-color: #333;
 }
 
 @media screen and (max-width:1400px) {
